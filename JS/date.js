@@ -2,7 +2,7 @@ function date() {
     var d = new Date();
     var x = document.getElementById("date");
     var day = addZero(d.getDate());
-    var month = addZero(d.getMonth());
+    var month = addZero(d.getMonth() + 1);
     var year = addZero(d.getFullYear());
     x.innerHTML = day + "." + month + "." + year;
 
