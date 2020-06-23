@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Digital Clock</title>
+</head>
+
+<body>
+  <div id="schemes">
+    <button class="btn btn-outline-dark" onclick="run1()" style="margin: 5px;">
+      Original
+    </button>
+    <button class="btn btn-outline-dark" onclick="run2()" style="margin: 5px;">
+      Scheme 2
+    </button>
+    <button class="btn btn-outline-dark" onclick="run3()" style="margin: 5px;">
+      Scheme 3
+    </button>
+    <button class="btn btn-outline-dark" onclick="run4()" style="margin: 5px;">
+      Scheme 4
+    </button>
+  </div>
+  <div id="frame">
+    <p id="clock"></p>
+    <script src="JS/index.js"></script>
+    <script src="JS/changeColor.js"></script>
+  </div>
+  <div id="frame-date">
+    <p id="date"></p>
+    <script src="JS/date.js"></script>
+  </div>
+</body>
+
+</html>
